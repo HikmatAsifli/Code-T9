@@ -1,0 +1,87 @@
+@import "../utils/extends";
+@import "../utils/variables";
+@import "./grid";
+
+
+.deal-of-week {
+    padding-top: 80px;
+    padding-bottom: 80px;
+    margin-left: 65px;
+    margin-right: 65px;
+}
+.countdown-timer {
+	text-align: center;
+	margin-bottom: 50px;
+
+    .cd-item {
+        display: inline-block;
+        background: #ffffff;
+        margin-right: 35px;
+        padding: 10px 14px;
+        border-radius: 5px;
+
+        &:last-child {
+            margin-right: 0;
+        }
+
+        span {
+            color: #e7ab3c;
+            font-weight: 700;
+            line-height: 40px;
+            font-size: 36px;
+        }
+
+        p {
+            font-size: 16px;
+            color: #b2b2b2;
+            margin-bottom: 0;
+            text-transform: uppercase;
+            letter-spacing: 1.5px;
+        }
+    }
+}
+.section-title {
+	margin-bottom: 40px;
+	text-align: center;
+
+    h2 {
+        color: #252525;
+        font-size: 36px;
+        font-weight: 700;
+        margin-bottom: 38px;
+        position: relative;
+
+        &:before {
+            position: absolute;
+            left: 0;
+            right: 0;
+            bottom: -14px;
+            width: 80px;
+            height: 3px;
+            background: #e7ab3c;
+            content: "";
+            margin: 0 auto;
+        }
+    }
+
+    p {
+        color: #6e6e6e;
+    }
+
+    .product-price {
+        font-size: 24px;
+        font-weight: 700;
+        color: #e7ab3c;
+
+        span {
+            font-size: 16px;
+            font-weight: 400;
+            color: #636363;
+        }
+    }
+}
+
+
+.text-center {
+    text-align: center !important;
+}
