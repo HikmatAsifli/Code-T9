@@ -25,7 +25,7 @@
         }
 
         span {
-            color: #e7ab3c;
+            color: $yellow-color;
             font-weight: 700;
             line-height: 40px;
             font-size: 36px;
@@ -33,7 +33,7 @@
 
         p {
             font-size: 16px;
-            color: #b2b2b2;
+            color: $grey-scale-200;
             margin-bottom: 0;
             text-transform: uppercase;
             letter-spacing: 1.5px;
@@ -45,7 +45,7 @@
 	text-align: center;
 
     h2 {
-        color: #252525;
+        color: $heading-color;
         font-size: 36px;
         font-weight: 700;
         margin-bottom: 38px;
@@ -58,7 +58,7 @@
             bottom: -14px;
             width: 80px;
             height: 3px;
-            background: #e7ab3c;
+            background: $yellow-color;
             content: "";
             margin: 0 auto;
         }
@@ -71,7 +71,7 @@
     .product-price {
         font-size: 24px;
         font-weight: 700;
-        color: #e7ab3c;
+        color: $yellow-color;
 
         span {
             font-size: 16px;

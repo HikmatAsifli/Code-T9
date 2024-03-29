@@ -19,7 +19,7 @@
     }
     ul li {
         list-style: none;
-        color: #b2b2b2;
+        color: $grey-scale-200;
         font-size: 16px;
         line-height: 30px;
     }
@@ -45,7 +45,7 @@
                 top: 0;
                 height: 100%;
                 width: 100%;
-                background: #e7ab3c;
+                background: $yellow-color;
                 content: "";
                 border-radius: 50%;
                 opacity: 0;
@@ -78,7 +78,7 @@
         a {
             line-height: 36px;
             font-size: 16px;
-            color: #b2b2b2;
+            color: $grey-scale-200;
         }
     }
 }
@@ -92,7 +92,7 @@
     }
 
     p {
-        color: #b2b2b2;
+        color: $grey-scale-200;
         line-height: 26px;
     }
 
@@ -100,8 +100,8 @@
         position: relative;
 
         input {
-            color: #b2b2b2;
-            background: #303030;
+            color: $grey-scale-200;
+            background: $grey-scale-800;
             width: 100%;
             height: 46px;
             font-size: 16px;
@@ -113,11 +113,11 @@
         button {
             display: inline-block;
             color: #ffffff;
-            background: #e7ab3c;
+            background: $yellow-color;
             font-size: 13px;
             font-weight: 700;
             text-transform: uppercase;
-            border: 1px solid #e7ab3c;
+            border: 1px solid $yellow-color;
             position: absolute;
             right: 0;
             top: 0;
@@ -128,20 +128,20 @@
 }
 
 .copyright-reserved {
-	border-top: 1px solid #303030;
+	border-top: 1px solid $grey-scale-800;
 	padding: 15px 0;
 	margin-top: 45px;
 
     .copyright-text {
         float: left;
         font-size: 16px;
-        color: #b2b2b2;
+        color: $grey-scale-200;
 
         a {
-            color: #b2b2b2;
+            color: $grey-scale-200;
 
             &:hover {
-                color: #e7ab3c;
+                color: $yellow-color;
             }
         }
 

@@ -35,7 +35,7 @@
 
             .top-social{
                 font-size: 14px;
-                color: #252525;
+                color: $heading-color;
                 display: inline-block;
                 padding-right: 20px;
                 border-right: 1px solid $grey-scale-50;
@@ -278,7 +278,7 @@
                         list-style: none;
 
                         &.active a {
-                            color: #e7ab3c;
+                            color: $yellow-color;
                         }
 
                         a {
@@ -293,7 +293,7 @@
                             transition: all 0.3s;
 
                             &:hover {
-                                color: #e7ab3c;
+                                color: $yellow-color;
                             }
                         }
                     }
@@ -314,7 +314,7 @@
                 position: relative;
                 
                 &.active a {
-                    background: #e7ab3c;
+                    background: $yellow-color;
                 }
 
                 a {
@@ -331,7 +331,7 @@
                 }
 
                 &:hover>a {
-                    background: #e7ab3c;
+                    background: $yellow-color;
                 }
 
                 &:hover .dropdown {
@@ -346,7 +346,7 @@
                     top: 82px;
                     width: 200px;
                     z-index: 99;
-                    background: #252525;
+                    background: $heading-color;
                     opacity: 0;
                     visibility: hidden;
                     -webkit-transition: all 0.3s;
@@ -359,7 +359,7 @@
 
                         &:hover>a {
                             background: transparent;
-                            color: #e7ab3c;
+                            color: $yellow-color;
                         }
 
                         a {

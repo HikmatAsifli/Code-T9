@@ -51,7 +51,7 @@
         list-style: none;
         display: inline-block;
         font-size: 20px;
-        color: #b2b2b2;
+        color: $grey-scale-200;
         margin-right: 22px;
         position: relative;
         cursor: pointer;
@@ -117,7 +117,7 @@
             }
             &.active {
                 width: 30px;
-                background: #252525;
+                background: $heading-color;
                 border-radius: 50px;
             }
         }
@@ -155,13 +155,13 @@
             text-transform: uppercase;
 
             &.pp-sale {
-                background: #e7ab3c;
+                background: $yellow-color;
             }
         }
 
         .icon {
             font-size: 20px;
-            color: #252525;
+            color: $heading-color;
             position: absolute;
             right: 21px;
             top: -15px;
@@ -188,14 +188,14 @@
                 background: #ffffff;
 
                 &.w-icon.active a {
-                    background: #e7ab3c;
+                    background: $yellow-color;
                     color: #ffffff;
                 }
 
                 a {
                     font-size: 16px;
                     font-weight: 700;
-                    color: #252525;
+                    color: $heading-color;
                     display: block;
                     padding: 16px 18px 12px 19px;
                 }
@@ -209,7 +209,7 @@
 
         .catagory-name {
             font-size: 10px;
-            color: #b2b2b2;
+            color: $grey-scale-200;
             font-weight: 700;
             letter-spacing: 2px;
             text-transform: uppercase;
@@ -220,19 +220,19 @@
             display: block;
 
             h5 {
-                color: #252525;
+                color: $heading-color;
             }
         }
 
         .product-price {
-            color: #e7ab3c;
+            color: $yellow-color;
             font-size: 20px;
             font-weight: 700;
 
             span {
                 font-size: 14px;
                 font-weight: 400;
-                color: #b2b2b2;
+                color: $grey-scale-200;
                 text-decoration: line-through;
             }
         }

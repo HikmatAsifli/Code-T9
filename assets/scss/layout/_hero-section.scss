@@ -10,7 +10,7 @@
 	    padding-top: 210px;
 
         span {
-            color: #e7ab3c;
+            color: $yellow-color;
             font-size: 12px;
             font-weight: 700;
             letter-spacing: 2px;
@@ -23,7 +23,7 @@
         }
 
         h1 {
-            color: #252525;
+            color: $heading-color;
             font-size: 72px;
             font-weight: 700;
             margin-bottom: 6px;
@@ -56,7 +56,7 @@
         position: absolute;
         left: 47%;
         top: 160px;
-        background: #e7ab3c;
+        background: $yellow-color;
         z-index: 1;
         -webkit-transform: rotate(45deg);
         -ms-transform: rotate(45deg);
@@ -142,7 +142,7 @@
 	position: absolute;
 	left: 40px;
 	top: 45%;
-	color: #252525;
+	color: $heading-color;
 
     &:hover {
         color: #dfad51;
